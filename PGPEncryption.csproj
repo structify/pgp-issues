@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="BouncyCastle.CryptoExt">
+      <HintPath>..\..\..\Program Files\OpenPGP Library for .NET 1.8.2\Bin\Core\BouncyCastle.CryptoExt.dll</HintPath>
+    </Reference>
+    <Reference Include="DidiSoft.Pgp.Core">
+      <HintPath>..\..\..\Program Files\OpenPGP Library for .NET 1.8.2\Bin\Core\DidiSoft.Pgp.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
